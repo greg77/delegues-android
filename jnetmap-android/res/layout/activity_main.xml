@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+  <RelativeLayout
+      android:id="@+id/activity_main_content_relative_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#ffffff">
+ 
+        <!--  Header  Starts-->
+        <LinearLayout android:id="@+id/header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip">
+                <!-- Logo Start-->
+                
+                <!-- Logo Ends -->
+        </LinearLayout>
+        <!--  Header Ends -->
+        <!-- Footer Start -->
+        <LinearLayout android:id="@+id/footer"
+                android:layout_width="fill_parent"
+                android:layout_height="90dip"
+                
+                android:layout_alignParentBottom="true">
+        </LinearLayout>
+        <!-- Footer Ends -->
+ 
+        <!-- Login Form -->
+        <LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="10dip"
+          android:layout_below="@id/header">
+          <!--  Login Label -->
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Login"/>
+          <EditText android:layout_width="fill_parent"
+              	android:id="@+id/activity_main_edittext_login"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"/>
+          <!--  Password Label -->
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Mot de passe"/>
+          <EditText android:layout_width="fill_parent"
+              android:id="@+id/activity_main_edittext_password"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:password="true"/>
+          <!-- Login button -->
+          <Button android:id="@+id/activity_main_button_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Se connecter"/>
+          
+ 
+        </LinearLayout>
+        <!-- Login Form Ends -->
+  </RelativeLayout>
+</ScrollView>

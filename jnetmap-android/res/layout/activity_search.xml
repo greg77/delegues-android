@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Rentrez l&apos;identifiant de la prise"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/activity_search_button_launch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/activity_search_edittext"
+            android:layout_alignBottom="@+id/activity_search_edittext"
+            android:layout_alignParentRight="true"
+            android:text="Rechercher" />
+
+        <EditText
+            android:id="@+id/activity_search_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="15dp"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <ListView
+            android:id="@+id/activity_search_list_outlet_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_search_button_launch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" >
+        </ListView>
+
+    </RelativeLayout>
