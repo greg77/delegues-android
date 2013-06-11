@@ -81,7 +81,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			        prefsEditor.putString("password", JnetmapManager.getInstance().getPassword());
 			        prefsEditor.commit();
 			        
-			        Intent intent = new Intent(mContext,SearchActivity.class);
+			        Intent intent = new Intent(mContext,HomeActivity.class);
 			        startActivity(intent);
 			        finish();
 //			        lauchLoginInterface();

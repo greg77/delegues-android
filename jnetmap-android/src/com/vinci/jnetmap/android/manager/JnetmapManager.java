@@ -66,8 +66,7 @@ public class JnetmapManager {
 				}
 				Log.d("passwdSha1", password);
 				this.password = password;
-
-		
+	
 		
 	}
 	
