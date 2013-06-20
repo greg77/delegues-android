@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonaddeleverep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajouter éleve via repertoire" />
+
+            <Button
+                android:id="@+id/buttonaddelevemanuel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajouter un eleve" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listEleves"
+            android:layout_width="match_parent"
+            android:layout_height="412dp" >
+            
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

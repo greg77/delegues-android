@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Delegues</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Editer</string>
+    <string name="reset">Reset</string>
+    <string name="retour">Retour</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Delegues</string>
+    <string name="title_activity_appreciation">Appreciations</string>
+	<string name="title_activity_contactrepertoire">Liste Contacts</string>
+	<string name="title_activity_contactmanuel">Ajouter un contact</string>
+</resources>
